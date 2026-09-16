@@ -58,7 +58,7 @@ The image preprocessing steps include:
 
 Example visualization of dataset classes:
 
-![Rice Leaf Classes](riceleafsv3_classes.png)
+![Rice Leaf Classes](assets/riceleafsv3_classes.png)
 
 
 ---
@@ -78,7 +78,7 @@ The model receives RGB images with size **128 × 128 × 3** and performs classif
 
 Model architecture summary:
 
-![CNN Model Summary](cnn_model_summary.png)
+![CNN Model Summary](assets/cnn_model_summary.png)
 
 
 ---
@@ -115,7 +115,7 @@ The model evaluation results:
 
 The training process was monitored using accuracy and loss curves.
 
-![Training History](training_history.png)
+![Training History](assets/training_history.png)
 
 
 ---
@@ -132,7 +132,7 @@ The model was evaluated using:
 
 Confusion matrix visualization:
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](assets/confusion_matrix.png)
 
 
 The evaluation shows that the CNN model can classify most rice leaf images correctly according to their respective classes.
@@ -151,7 +151,7 @@ The prediction output provides:
 
 Example prediction results:
 
-![Prediction Result](prediction_result.png)
+![Prediction Result](assets/prediction_result.png)
 
 
 ---
@@ -160,21 +160,20 @@ Example prediction results:
 
 Mini_Project_CNN_RiceLeaf/
 
-│
 ├── Mini_Project_CNN_RiceLeaf.ipynb
 
-├── cnn_model_summary.png
+├── README.md
 
-├── confusion_matrix.png
+├── requirements.txt
 
-├── prediction_result.png
+├── LICENSE
 
-├── riceleafsv3_classes.png
-
-├── training_history.png
-
-└── README.md
-
+└── assets/
+    ├── cnn_model_summary.png
+    ├── confusion_matrix.png
+    ├── prediction_result.png
+    ├── riceleafsv3_classes.png
+    └── training_history.png
 ---
 
 # Technologies Used
